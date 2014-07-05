@@ -3,7 +3,7 @@ gulp-starter-ractive
 
 This repository contains slight modifications to [the gulp starter project](https://github.com/greypants/gulp-starter).
 
-Starter Gulp + Browserify project with examples of how to accomplish some common tasks and workflows. Read the [blog post](http://viget.com/extend/gulp-browserify-starter-faq) for more context.
+Starter Gulp + Browserify project with Ractive support and examples of how to accomplish some common tasks and workflows. Read the [blog post](http://viget.com/extend/gulp-browserify-starter-faq) for more context.
 
 Includes the following tools, tasks, and workflows:
 
