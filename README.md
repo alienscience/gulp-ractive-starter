@@ -8,7 +8,7 @@ Starter Gulp + Browserify project with Ractive support and examples of how to ac
 Includes the following tools, tasks, and workflows:
 
 - Ractive js
-- Precompiled Ractive templates with Ractify
+- Precompiled Ractive templates with Ractivate
 - Browserify (with browserify-shim)
 - Watchify (caching version of browserify for super fast rebuilds)
 - jQuery (from npm)
