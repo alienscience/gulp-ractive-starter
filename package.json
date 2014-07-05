@@ -1,0 +1,50 @@
+{
+  "name": "gulp-starter",
+  "version": "0.1.1",
+  "description": "Gulp starter with common tasks and scenarios",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/greypants/gulp-starter.git"
+  },
+  "browserify": {
+    "transform": [
+      "browserify-shim",
+      "ractivate"
+    ]
+  },
+  "browserify-shim": {
+    "plugin": {
+      "exports": "plugin",
+      "depends": [
+        "jquery:$"
+      ]
+    }
+  },
+  "aliasify": {
+    "aliases": {
+      "ractive": "ractive/build/ractive.runtime"
+    }
+  },
+  "devDependencies": {
+    "aliasify": "^1.4.0",
+    "browser-sync": "~0.8.2",
+    "browserify": "~3.36.0",
+    "browserify-shim": "~3.4.1",
+    "connect": "~2.14.3",
+    "gulp": "~3.8.5",
+    "gulp-changed": "~0.3.0",
+    "gulp-compass": "~1.1.8",
+    "gulp-imagemin": "~0.1.5",
+    "gulp-notify": "~1.2.4",
+    "gulp-open": "~0.2.8",
+    "gulp-util": "~2.2.14",
+    "pretty-hrtime": "~0.2.1",
+    "ractivate": "^0.1.0",
+    "vinyl-source-stream": "~0.1.1",
+    "watchify": "~0.10.1"
+  },
+  "dependencies": {
+    "jquery": "~2.1.0",
+    "ractive": "^0.4.0"
+  }
+}
