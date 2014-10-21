@@ -39,12 +39,12 @@
     "gulp-open": "~0.2.8",
     "gulp-util": "~2.2.14",
     "pretty-hrtime": "~0.2.1",
-    "ractivate": "^0.1.0",
+    "ractivate": "^0.2.0",
     "vinyl-source-stream": "~0.1.1",
     "watchify": "~0.10.1"
   },
   "dependencies": {
     "jquery": "~2.1.0",
-    "ractive": "^0.4.0"
+    "ractive": "^0.6.0"
   }
 }
